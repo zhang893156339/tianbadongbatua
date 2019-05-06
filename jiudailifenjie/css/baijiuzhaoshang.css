@@ -1,0 +1,337 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.main {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.main a {
+	text-decoration: none;
+	color: #3f3432;
+}
+
+.main a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+.main li {
+	list-style: none;
+}
+
+.jianjie {
+	height: 34px;
+	line-height: 34px;
+	background: #f1f1f1;
+}
+
+.jianjie span:first-child {
+	display: block;
+	width: 154px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	background: #b70100;
+	font-size: 16px;
+	color: #fff;
+	float: left;
+	font-weight: bold;
+}
+
+.jianjie span:last-child {
+	float: right;
+	margin-right: 10px;
+	font-size: 12px;
+}
+
+.fenlei {
+	height: 132px;
+	border: 1px solid #ede8d7;
+	padding:0 10px;
+	font-size: 12px;
+}
+
+.fenlei ul{
+	height: 40px;
+	line-height: 40px;
+}
+
+.fenlei ul:nth-child(2){
+	border-top:1px dashed #e8e8e8;
+	border-bottom:1px dashed #e8e8e8;
+	margin: 5px 0;
+}
+
+.fenlei li {
+	float:left;
+	padding:0 20px;
+}
+
+.fenlei li:first-child {
+	background: #f3f3f3;
+}
+
+.qu{
+	margin:10px 0;
+	height: 50px;
+	line-height: 50px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.qu li{
+	width:190px;
+	height: 50px;
+	text-align: center;
+	color:#fff;
+	background: #077eb0;
+	float:left;
+	margin-right:10px;
+}
+
+.dll{
+	width:1220px;
+	height: 3830px;
+}
+
+.dll dl{
+	float:left;
+	margin-right:16px;
+	margin-bottom: 16px;
+}
+
+.dll img{
+	width:390px;
+	border: none;
+	display: block;
+}
+
+.dll dd{
+	width:390px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #e1e1e1;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.yixiang{
+	height: 34px;
+	background: #f1f1f1;
+}
+.yixiang span{
+	display: block;
+	width:160px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color:#fff;
+	background: #c20000;
+}
+
+.yixianglist{
+	margin-top:10px;
+	height: 480px;
+	width:1220px;
+}
+
+.yixianglist dl{
+	float:left;
+	margin-right:16px;
+	margin-bottom: 16px;
+	height: 106px;
+	width:390px;
+	font-size: 12px;
+	background: #f1f1f1;
+}
+.yixianglist img{
+	width:73px;
+	height:88px;
+	margin:9px;
+	border: none;
+}
+
+.yixianglist dt{
+	float:left;
+}
+
+.yixianglist dd{
+	margin-top:9px;
+}
+.yixianglist li{
+	height: 18px;
+	line-height: 18px;
+	width:180px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.newslist{
+	width:1220px;
+	height: 316px;
+}
+
+.newslist div{
+	float:left;
+	font-size: 12px;
+	width:288px;
+	margin-right:16px;
+}
+
+.newslist p{
+	height:34px;
+	line-height: 34px;
+	background: #f3f3f3;
+	padding-right:10px;
+}
+
+ .newslist span{
+	display: block;
+	width:5px;
+	height: 100%;
+	background: #d00000;
+	float:left;
+	margin-right:10px;
+} 
+
+.newslist b{
+	font-size: 16px;
+	float:left;
+}
+
+.newslist p a{
+	float:right;
+}
+
+.newslist p a:hover{
+	color:#000;
+}
+
+.newslist ul{
+	margin-top:8px;
+}
+
+.newslist li{
+	height: 26px;
+	line-height: 26px;
+	list-style: none;
+	background: url(../img/dian.jpg) no-repeat left center;
+	padding-left: 5px;
+} 
+
+.yinbian{
+	height:34px;
+	line-height: 34px;
+	background: #f3f3f3;
+	font-size:12px;
+	padding-right:10px;
+	margin: 10px 0;
+}
+
+.yinbian span{
+	display: block;
+	width:5px;
+	height: 100%;
+	background: #7d7b7c;
+	float:left;
+} 
+
+.yinbian b{
+	font-size: 16px;
+	float:left;
+	padding:0 10px;
+	background: #d20000;
+	color:#fff;
+}
+
+.yinbian a{
+	float:right;
+}
+
+.yinbian a:hover{
+	color:#000;
+}
+
+.zixun{
+	height:375px;
+	background: #f1f1f1;
+	
+	font-size:12px;
+}
+
+.zixun p{
+	margin:10px 0;
+	height:24px;
+	line-height: 24px;
+	background: #000000;
+	color:#fff;
+	padding:0 10px;
+}
+
+.zixun p a{
+	color:#fff;
+	float:right;
+}
+
+.zixun img{
+	width:182px;
+	height:130px;
+}
+
+.zixun dl{
+	height:188px;
+	width:580px;
+	float:left;
+	margin-left:13px;
+}
+
+.zixun dt{
+	width:182px;
+	float:left;
+	margin-right:10px;
+}
+.zixun dd{
+	float:left;
+}
+
+.zixun li{
+	height:22px;
+	line-height: 22px;
+}
+
+.zixun li a:hover{
+	color:#000;
+}
+
+.zixun li:first-child a{
+	color: red;
+	text-decoration: underline;
+}
+
+.zixun li:first-child a:hover{
+	text-decoration:none;
+}
+
+.lianjie{
+	height:52px;
+	border:1px solid #e2e2e2;
+	margin-top:-10px;
+	padding-top:8px;
+	padding-left:10px;
+}
+
+.lianjie li{
+	float:left;
+	font-size: 12px;
+	padding:4px 6px;
+}

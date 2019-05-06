@@ -1,0 +1,14 @@
+.foot2{height: 264px;background: #3f3e3e;padding-top: 36px;}
+.foot2bk{width:1200px;margin: 0 auto;position: relative;}
+.foot2 .nav2{width: 1200px;height: 20px;margin-bottom: 12px}
+.foot2 .nav2 li{float:left;font-size:18px;margin-right: 12px;list-style:none;}
+.foot2 .nav2 a{color: #F1F1F1;}
+.foot2 img{display: inline-block;}
+.copyright{width: 1200px;height: 90px;font-size: 15px;color: #cccaca;}
+.copyright p{margin-top: 5px;}
+.foot2pic{width: 1200px;height: 60px;margin-top: 30px;}
+.foot2pic li{float: left;margin-right: 20px;list-style:none;}
+.scan{position: absolute;top: 10px;right: 0px;}
+.scan img{width: 120px;height: 120px;}
+.scan li{float: left;margin-right: 50px;list-style:none;}
+.scan li p{margin-top: 8px;font-size: 15px;color:#cccaca ;}

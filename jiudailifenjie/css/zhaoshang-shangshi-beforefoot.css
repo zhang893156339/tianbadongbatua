@@ -1,0 +1,130 @@
+.navlist {
+	clear: both;
+	width:1200px;
+	height: 140px;
+	padding-top: 8px;
+	background: #eff0eb;
+	margin: 15px auto;
+	border-top: 2px solid #242424;
+	font-size: 12px;
+}
+
+.navlist ul {
+	float: left;
+}
+.navlist img{
+	height: 175px;
+	width: 326px;
+}
+.navlist li {
+	float: left;
+	width: 70px;
+	height: 22px;
+	line-height: 22px;
+	padding-left: 10px;
+}
+
+.navlist ul li:first-child {
+	width: 60px;
+	height: 20px;
+	margin-left: 5px;
+	border-radius: 5px;
+	background: #dfdfdf;
+	text-align: right;
+}
+
+.fuwu{
+	height:420px;
+	background: #f3f3f3;
+}
+
+.beforefoot{
+	width:1200px;	
+	margin: 0 auto;
+	padding-top:10px;
+}
+
+.beforefoot div{
+	float:left;
+}
+
+.beforefoot div>p:first-of-type{
+	font-size: 16px;
+	height:46px;
+	line-height: 46px;
+	color:red;
+}
+
+.fuwu .left{
+	margin-right:18px;
+	width:260px;
+}
+
+.fuwu .left p:nth-child(2){
+	text-indent: 2em;
+	line-height: 24px;
+	font-size: 14px;
+}
+
+.fuwu .left li{
+	text-align: center;
+	padding:8px 0;
+	font-size: 20px;
+	margin:18px 0;
+	color:#fff;
+	font-weight: bold;
+}
+
+.fuwu .center{
+	width:490px;
+}
+
+.fuwu .center ul{
+	padding: 0 18px;
+	border-left:1px solid #e3e3e3;
+	border-right:1px solid #e3e3e3;
+}
+
+.fuwu .center li{
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	background: #fff;
+	margin-top:4px;
+	padding:0 5px;
+}
+
+.fuwu .center img{
+	float:right;
+	margin-top:8px;
+}
+
+.fuwu .center p{
+	margin-left: 18px;
+}
+
+.fuwu .right{
+	margin-left: 18px;
+	font-size: 12px;
+}
+
+.fuwu .right>p:nth-child(2){
+	margin-top:10px;
+	color:red;
+}
+
+.fuwu .right li{
+	width:330px;
+	height: 50px;
+	line-height: 24px;
+	padding-top:10px;
+	border-bottom: 1px solid #dcdcdc;
+	position: relative;
+}
+
+
+.fuwu .right img{
+	position:absolute;
+	right:0;
+	top:18px;
+}

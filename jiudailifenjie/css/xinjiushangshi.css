@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	width: 1200px;
+	height: 1440px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: #3f3432;
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+li {
+	list-style: none;
+}
+
+.m-left {
+	width: 900px;
+	height: 1440px;
+	border: 1px solid #e8e8e8;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.m-left p {
+	height: 30px;
+	line-height: 30px;
+	background: #fdfbff;
+	font-size: 12px;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.list {
+	width: 800px;
+	height: 32px;
+	margin: 10px auto;
+	background: #fdfbff;
+	line-height: 32px;
+	font-size: 12px;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.list b {
+	float: left;
+}
+
+.list li {
+	float: left;
+	height: 25px;
+	line-height: 25px;
+	background: #fff;
+	margin: 0 6px;
+	margin-top: 6px;
+	padding: 0 8px;
+	border-left: 1px solid #e8e8e8;
+	border-top: 1px solid #e8e8e8;
+	border-right: 1px solid #e8e8e8;
+}
+
+.list a {
+	color: red;
+}
+
+.newslist {
+	width: 790px;
+	margin-left: 45px;
+}
+
+.newslist li {
+	height: 36px;
+	line-height: 35px;
+	border-bottom: 1px dashed #e8e8e8;
+	font-size: 16px;
+	background: url(../img/dian.jpg) no-repeat left center;
+	padding-left: 5px;
+}
+
+.newslist span {
+	float: right;
+}
+
+.fenye {
+	width: 790px;
+	height: 44px;
+	background: #f5f5f5;
+	margin-left: 45px;
+	margin-top: 20px;
+}
+
+.m-right {
+	float: right;
+}
+
+.m-right a:hover {
+	color: #000;
+}
+
+.m-right div {
+	margin: 15px 0;
+}
+
+.haiwangjiu {
+	display: block;
+	width: 290px;
+	height: 290px;
+}
+
+.xinimg {
+	display: block;
+	width: 290px;
+	height: 80px;
+}
+
+.xin {
+	width: 288px;
+	height: 218px;
+	background: #f4f4f4;
+	border: 1px dashed #e8e8e8;
+	font-size: 12px;
+}
+
+.xin p {
+	background: #eeeced;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+}
+
+.xin p a {
+	float: right;
+}
+
+.xin ul {
+	padding: 0 10px;
+	margin-top: 10px;
+}
+
+.xin li {
+	height: 20px;
+	line-height: 20px;
+}

@@ -1,0 +1,33 @@
+/* CSS Document */
+body{ margin:0; padding:0; font-size:12px; background:#eaeff2;}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0; font-size:14px;}
+ul,li,p{margin:0;padding:0; font-size:12px;}
+font{ font-size:12px;}
+img,input{border:0;}
+ul,li{list-style-type:none;}
+a{ text-decoration:none;color:#2d4c75;}
+a:hover{ text-decoration:underline;cursor: pointer;}
+
+.zc_top{width: 100%;height: 25px;background: #f5f5f5;}
+.usertopnei{width: 1000px;margin:0 auto;line-height: 25px;}
+.usertopnei p{float:left;}
+.usertopnei ul{float:right;}
+.usertopnei li{float: left;padding-left:18px;}
+.userbody{width: 1114px;margin: 10px auto;}
+.usertopnei{width: 1000px;height: 109px;}
+.usertopnei img{height: 109px;}
+.zc_body{width: 1000px;margin:20px auto;}
+.zc_xiang{margin-top:30px;clear: both;height: 30px;}
+.tishi{display: block;width:240px;float: right;padding-top: 3px;}
+.lbltxt{font-size: 14px;width:100px;height:36px;text-align: right;display: block;float: left;line-height: 36px;}
+.zctxt{width: 250px;height: 28px;border:1px solid #cecece;border-radius: 2px;float: left;}
+.zc_right{float:left;width: 100px;}
+.zc_left{float: left;width:600px;}
+.zc_bottom{margin-top:100px;}
+.userfoot{width:1114px;margin:10px auto;text-align: center;margin-top:10px;border-top:1px solid #cecece;padding:10px;}
+.userfoot a{color: #000;}
+.userfoot p{margin: 10px auto;}
+.onLoad{background:url(../img/onShow.png) no-repeat ;padding-left: 30px;vertical-align:middle;line-height:22px;font-size: 12px;}
+.onFocus{background:#E9F0FF url(../img/onShow.png) no-repeat ;padding-left: 30px;vertical-align:middle;line-height:22px;font-size: 12px;}
+.onCorrect{background:#E9FFEB url(../img/onCorrect.gif) no-repeat ;padding-left: 30px;vertical-align:middle;line-height:22px;}
+.onError{background:#FFF2E9 url(../img/onError.gif) no-repeat ;padding-left: 30px;vertical-align:middle;line-height:22px;}

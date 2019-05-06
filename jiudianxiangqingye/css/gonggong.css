@@ -1,0 +1,15 @@
+﻿html, body, ul, li, ol, dl, dd, dt, th, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, textarea, select{ margin:0; padding:0; }
+fieldset, img { border:none; margin: 0;padding: 0;}
+img{display: block;border: none;}
+address, caption, cite, code, dfn, th{ font-style:normal; font-weight:normal; }
+ul, ol { list-style:none; } 
+body { color:#333; font:12px/20px "微软雅黑","宋体","Arial Narrow",HELVETICA; background:#fff;/* overflow-y:scroll;*/ overflow-x:hidden;}
+a { color:#666; text-decoration:none; }
+
+
+em{font-style:normal}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+.ind{text-indent:2em} 
+.ind10{text-indent:10px;}
+.noborder{border:0;}

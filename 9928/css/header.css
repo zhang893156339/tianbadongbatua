@@ -1,0 +1,241 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+li{
+	list-style: none;
+}
+
+.top {
+	width: 100%;
+	height: 40px;
+	background: #f2f2f2;
+	line-height: 40px;
+	
+}
+.top-center{
+	width: 1200px;
+	height: 40px;	
+	margin: 0 auto;	
+	color: #999999;
+	font-size: 12px;
+	position: relative;
+}
+.top-center a{
+	color: #999999;
+}
+.top .left{
+	height: 40px;
+	width: 400px;
+	float: left;
+}
+.top .left li{
+	float: left;
+	margin-left: 25px;	
+}
+.top .top-center img{
+	width: 18px;
+	height: 18px;
+	margin-top: 10px;
+}
+.top .right img{
+	width: 18px;
+	height: 18px;
+	
+}
+.top .left img{
+	position: absolute;
+	left: 3px;
+}
+.top .right{
+	float: right;
+}
+.top .right li{
+	float: left;
+	margin:0 15px;
+}
+.right .ts2{
+	position: absolute;
+	right: 273px;
+}
+.right .ts3{
+	position: absolute;
+	right: 193px;
+}
+/*第二个板块开始*/
+.top-banner{
+	width: 100%;
+	height: 112px;
+}
+.top-banner img{
+	width: 100%;
+	height: 112px;
+	margin: 0 auto;
+}
+/*第三个板块开始*/
+.cc{
+	width: 100%;
+	height: 153px;	
+}
+.center{
+	width: 1200px;
+	height: 153px;
+	background: white;
+	margin: 0 auto;
+}
+.c-left{
+	width:330px;
+	height: 153px;	
+	float: left;
+}
+.c-left img{
+	width: 184px;
+	height: 153px;
+	margin-top: 0px;
+}
+.c-right{
+	width:870px;
+	height: 153px;
+	float: right;
+}
+.c-right .sousuo{
+	height: 90px;
+}
+.c-right #wenzi{
+	height: 63px;
+}
+#but{
+	border:0;
+	width: 102px;
+	height: 42px;
+	background:#cc0000;
+	color: white;
+	font-size: 15px;
+	letter-spacing: 7px;
+	margin-top: 44px;
+	line-height: 42px;
+}
+#tex{
+	border: 1px solid red;
+	width: 531px;
+	height: 40px;
+	margin-top: 45px;
+		
+}
+#wenzi ul{
+	margin-left: 160px;
+}
+#wenzi li{
+	float: left;
+	font-size: 12px;
+	margin-top: 10px;
+	margin: 0 10px;
+	margin-top: 15px;
+}
+#wenzi a{
+	color: #999999;
+}
+#wenzi span{
+	color: #CC0000;
+	
+}
+/*第四个板块--地区招商*/
+.F-center{
+	width: 1200px;
+	height: 54px;
+}
+.F-center ul{
+	width: 1200px;
+	height: 54px;
+	line-height: 50px;
+	color: #999999;
+	font-size: 14px;
+}
+.F-center a{
+	color: #999999;
+}
+.F-center .F-ts11 a{
+	color: #CC0000;
+	font-size: 17px;
+}
+.F-center li{
+	float: left;
+	margin: 0 12px;
+	
+}
+/*第五个板块开始--NAV*/
+.fhNav{
+	position: relative;
+	box-sizing: border-box;
+	width: 1200px;
+	height: 52px;
+	background:#cc0000;
+}
+.nav{
+	width: 1200px;
+	height: 52px;
+	font-size:15px;
+	color:#FFFFFF;
+	display: flex;
+	justify-content:space-between;	
+}
+.nav li{
+	list-style: none;	
+	width: 108px;
+	text-align: center;
+	height:52px;
+	cursor:pointer;
+	line-height: 52px;
+}
+.nav li:hover{
+	background:#5c0404;	
+}
+.nav li a:hover{
+	color: yellow;
+	text-decoration:underline;
+}
+.selectedNav{
+	background-color: rgba(92,4,4,0.9);
+}
+/*第五个板块开始--二级导航*/
+.T-nav{
+	width: 1200px;
+	height:35px;
+	
+}
+.T-nav div{
+	width:280px;
+	height: 35px;
+	float: left;
+	margin: 0 10px;
+	position: relative;
+}
+.T-nav div img {
+	position: absolute;
+	left:5px;
+	}
+.T-nav li{
+	float: left;
+	font-size: 14px;
+	line-height: 35px;
+	/*margin: 0 5px;*/
+	letter-spacing: 3px;
+	margin-left:10px;
+}
+.T-nav .t-ts1 a{
+	color: #CC0000;
+}
+.T-nav a{
+	color: #999999;	
+}
+.T-nav ul{
+	margin-left: 13px;
+}
+.T-nav span{
+	color: #CC0000;
+}

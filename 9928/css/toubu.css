@@ -1,0 +1,232 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	margin: 0 auto;
+}
+.header a{
+	text-decoration: none;
+	color: white;
+}
+.header li{
+	list-style: none;
+}
+.header .top {
+	width: 100%;
+	height: 40px;
+	background: #f2f2f2;
+	line-height: 40px;
+	
+}
+.top-center{
+	width: 1200px;
+	height: 40px;	
+	margin: 0 auto;	
+	color: #999999;
+	font-size: 12px;
+	position: relative;
+}
+.header .top-center .left{
+	
+}
+.header .top-center a{
+	color: #999999;
+}
+.header .top .left li{
+	float: left;
+	margin-left: 25px;	
+}
+.header img{
+	width: 18px;
+	height: 18px;
+	margin-top: 10px;
+}
+.header .top .left img{
+	position: absolute;
+	left: 3px;
+}
+.header .top .right{
+	float: right;
+}
+.header .top .right li{
+	float: left;
+	margin:0 15px;
+}
+.header .right .ts2{
+	position: absolute;
+	right: 273px;
+}
+.header .right .ts3{
+	position: absolute;
+	right: 193px;
+}
+/*第二个板块开始*/
+.header .top-banner{
+	width: 100%;
+	height: 112px;
+}
+.header .top-banner img{
+	width: 100%;
+	height: 112px;
+	margin: 0 auto;
+}
+/*第三个板块开始*/
+.header .cc{
+	width: 100%;
+	height: 153px;	
+}
+.header .center{
+	width: 1200px;
+	height: 153px;
+	background: white;
+	margin: 0 auto;
+}
+.header .c-left{
+	width:330px;
+	height: 153px;	
+	float: left;
+}
+.header .c-left img{
+	width: 184px;
+	height: 153px;
+	margin-top: 0px;
+}
+.header .c-right{
+	width:870px;
+	height: 153px;
+	float: right;
+}
+.header .c-right .sousuo{
+	height: 90px;
+}
+.header .c-right #wenzi{
+	height: 63px;
+}
+.header #but{
+	border:0;
+	width: 102px;
+	height: 42px;
+	background:#cc0000;
+	color: white;
+	font-size: 15px;
+	letter-spacing: 7px;
+	margin-top: 44px;
+	line-height: 42px;
+}
+.header #tex{
+	border: 1px solid red;
+	width: 531px;
+	height: 40px;
+	margin-top: 45px;	
+}
+.header #wenzi ul{
+	margin-left: 160px;
+}
+.header #wenzi li{
+	float: left;
+	font-size: 12px;
+	margin-top: 10px;
+	margin: 0 10px;
+	margin-top: 15px;
+}
+.header #wenzi a{
+	color: #999999;
+}
+.header #wenzi span{
+	color: #CC0000;
+	
+}
+/*第四个板块--地区招商*/
+.header .F-center{
+	width: 1200px;
+	height: 54px;
+}
+.header .F-center ul{
+	width: 1200px;
+	height: 54px;
+	line-height: 50px;
+	color: #999999;
+	font-size: 14px;
+}
+.header .F-center a{
+	color: #999999;
+}
+.header .F-center .F-ts11 a{
+	color: #CC0000;
+	font-size: 17px;
+}
+.header .F-center li{
+	float: left;
+	margin: 0 12px;
+	
+}
+/*第五个板块开始--NAV*/
+.header .fhNav{
+	position: relative;
+	box-sizing: border-box;
+	width: 1200px;
+	height: 52px;
+	background:#cc0000;
+}
+.header .nav{
+	width: 1200px;
+	height: 52px;
+	font-size:15px;
+	color:#FFFFFF;
+	display: flex;
+	justify-content:space-between;	
+}
+.header .nav li{
+	list-style: none;	
+	width: 108px;
+	text-align: center;
+	height:52px;
+	cursor:pointer;
+	line-height: 52px;
+}
+.header .nav li:hover{
+	background:#5c0404;	
+}
+.header .nav li a:hover{
+	color: yellow;
+	text-decoration:underline;
+}
+.header .selectedNav{
+	background-color: rgba(92,4,4,0.9);
+}
+/*第五个板块开始--二级导航*/
+.header .T-nav{
+	width: 1200px;
+	height:35px;
+	
+}
+.header .T-nav div{
+	width:280px;
+	height: 35px;
+	float: left;
+	margin: 0 10px;
+	position: relative;
+}
+.header .T-nav div img {
+	position: absolute;
+	left:5px;
+	}
+.header .T-nav li{
+	float: left;
+	font-size: 14px;
+	line-height: 35px;
+	/*margin: 0 5px;*/
+	letter-spacing: 3px;
+	margin-left:10px;
+}
+.header .T-nav .t-ts1 a{
+	color: #CC0000;
+}
+.header .T-nav a{
+	color: #999999;	
+}
+.header .T-nav ul{
+	margin-left: 13px;
+}
+.header .T-nav span{
+	color: #CC0000;
+}

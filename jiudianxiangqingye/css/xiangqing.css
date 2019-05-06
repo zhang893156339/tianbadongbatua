@@ -1,0 +1,10 @@
+.container-fluid{
+	width: 100%;
+	
+	overflow: hidden;
+	background: url(../img/bodybg.jpg) center;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
